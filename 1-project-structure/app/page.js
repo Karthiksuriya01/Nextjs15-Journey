@@ -1,10 +1,10 @@
 import React from 'react';
+import './globals.css';
 
 const Page = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
-      
+    <div className="container">
+      <h1 className="title">Hello</h1>
     </div>
   );
 }
